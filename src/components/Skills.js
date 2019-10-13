@@ -1,19 +1,14 @@
 import React from 'react';
-import { 
-    IoLogoPython,
-    IoLogoHtml5, 
-    IoLogoJavascript } 
-from "react-icons/io";
 
 const Skills = (props) => {
     const languages = props.languages.Languages;
     return (
-        <div>
-            <h3>{props.languages.title}</h3>
-            <ul>
-                <li><IoLogoPython /> {languages.name1}</li>
-                <li><IoLogoHtml5 /> {languages.name2}</li>
-                <li><IoLogoJavascript /> {languages.name3}</li>
+        <div className="ui segment">
+            <h3><i className="american sign language interpreting icon"></i> {props.languages.title}</h3>
+            <ul style={{listStyleType:"none", 'padding':'0'}}>
+                <li><i className="python icon" /> {languages.name1}</li>
+                <li><i className="html5 icon" /> {languages.name2}</li>
+                <li><i className="js icon"/> {languages.name3}</li>
             </ul>
         </div> 
     );

@@ -9,10 +9,12 @@ const Mock =  {
         'title' : 'Personal Information',
         'people' : {
             'Age': 31,
+            'Birthday': '08/28/1988',
             'Email': 'giadieuly@gmail.com',
             'Phone': '090xxxxx',
             'Address' : 'Trinh Dinh Trong, Phu Trung Ward, Tan Phu Ward',
-            'Languages' : 'Premeir , Local English; Cantonese, Vietnamese'
+            'Languages' : 'Premeir , Local English; Cantonese, Vietnamese',
+            'Facebook' : 'facebook.com/ly.g.dieu',
         }
     },
 
